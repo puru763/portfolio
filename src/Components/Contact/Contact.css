@@ -82,3 +82,20 @@ textarea {
   font-size: 14px;
   margin-top: 10px;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  .contacti{
+    display: none;
+  }
+
+  .form-c{
+    width: 80%;
+  }
+
+  .contact-heading{
+    font-size: 5vw;
+  }
+
+}

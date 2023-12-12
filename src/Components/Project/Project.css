@@ -18,3 +18,14 @@
 .project-container::-webkit-scrollbar-track {
     background-color: var(--white);
 }
+
+@media only screen and (max-width: 768px) {
+
+    .p-head {
+        font-size: 5.5vw;
+        color: var(--orange);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

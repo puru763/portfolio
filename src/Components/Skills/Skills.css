@@ -72,10 +72,10 @@
 
   .skill-item-box{
     border: 2px solid var(--orange);
-    width: 30vw;
+    width: 25vw;
     align-items: center;
-    height: 15vh;
-    gap: 1vw;
+    height: 12vh;
+    gap: 1.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@
   }
 
   .skill-icons{
-    font-size: 8vw;
+    font-size: 6vw;
   }
 
   .skill-name{
