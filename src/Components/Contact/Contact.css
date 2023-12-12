@@ -1,4 +1,4 @@
-.contact-heading{
+.contact-heading {
   font-size: 2.5vw;
   color: var(--orange);
   display: flex;
@@ -8,22 +8,22 @@
 
 
 
-.form-container{
+.form-container {
   display: flex;
 }
 
-.contacti{
+.contacti {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contacti img{
+.contacti img {
   width: 24vw;
 }
 
-.form-c{
+.form-c {
   width: 50%;
   margin: auto;
   padding-right: 10vw;
@@ -35,7 +35,7 @@
 
 
 
-  
+
 
 .form-group {
   margin-bottom: 15px;
@@ -86,15 +86,15 @@ textarea {
 
 @media only screen and (max-width: 768px) {
 
-  .contacti{
+  .contacti {
     display: none;
   }
 
-  .form-c{
+  .form-c {
     width: 80%;
   }
 
-  .contact-heading{
+  .contact-heading {
     font-size: 5vw;
   }
 

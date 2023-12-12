@@ -79,7 +79,6 @@ button:hover {
 
 
 
-  /* ... Previous styles ... */
 
 @media only screen and (max-width: 768px) {
   .nav-links {
@@ -97,7 +96,7 @@ button:hover {
     display: contents;
   }
 
-  .nav-links.show { 
+  .nav-links.show {
     display: flex;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;

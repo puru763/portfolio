@@ -1,4 +1,3 @@
-// src/Contact.js
 import cimg from "./contact.jpeg";
 import React, { useState } from "react";
 import "./Contact.css";
@@ -61,10 +60,7 @@ const Contact = () => {
 
   return (
     <div className="contact-box">
-
-      <div className="contact-heading">
-        Contact Me
-      </div>
+      <div className="contact-heading">Contact Me</div>
       <div className="form-container">
         <div className="contacti">
           <img src={cimg} alt="" />

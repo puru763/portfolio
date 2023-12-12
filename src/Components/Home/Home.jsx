@@ -32,25 +32,22 @@ const Home = () => {
   };
   const handleIconClick = (event) => {
     const iconType = event.target.dataset.iconType;
-  
+
     switch (iconType) {
-      case 'linkedin':
-        window.location.assign('https://www.linkedin.com/in/purvesh15/');
+      case "linkedin":
+        window.location.assign("https://www.linkedin.com/in/purvesh15/");
         break;
-      case 'github':
-        window.location.assign('https://github.com/puru763');
+      case "github":
+        window.location.assign("https://github.com/puru763");
         break;
-      case 'instagram':
-        window.location.assign('https://www.instagram.com/puru_763');
+      case "instagram":
+        window.location.assign("https://www.instagram.com/puru_763");
         break;
       default:
         break;
     }
   };
-  
-  
-  
-  
+
   return (
     <div className="home-container">
       <div className="left">

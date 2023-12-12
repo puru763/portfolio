@@ -1,4 +1,3 @@
-// Project.js
 import "./Project.css";
 import ProjectCart from "./ProjectCart/ProjectCart";
 
