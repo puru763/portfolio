@@ -1,0 +1,84 @@
+.contact-heading{
+  font-size: 2.5vw;
+  color: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.form-container{
+  display: flex;
+}
+
+.contacti{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacti img{
+  width: 24vw;
+}
+
+.form-c{
+  width: 50%;
+  margin: auto;
+  padding-right: 10vw;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+
+
+
+  
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  bottom: -15px;
+}
+
+.contact-button {
+  background-color: var(--orange);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.confirmation-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}

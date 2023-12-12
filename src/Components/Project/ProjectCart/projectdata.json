@@ -1,0 +1,26 @@
+[
+  {
+    "key": 1,
+    "projectNumber": "Project 1",
+    "title": "Bookify",
+    "description": "Developed a scalable React.js frontend web app simplifying hotel bookings for optimized reservations. Incorporated modular components to enhance codebase maintainability and enable tailored booking experiences. Focused on optimizing app design to deliver a seamless user experience",
+    "image": "./flux.jpg",
+    "link": "./flux.jpg"
+  },
+  {
+    "key": 2,
+    "projectNumber": "Project 2",
+    "title": "React Notes App",
+    "description": "Developed a scalable React.js frontend web app simplifying e-commerce functionality. • Designed a dynamic categorization system to facilitate effective section nesting and routing. • Implemented object-oriented programming practices such as inheritance to create different account types and databases",
+    "image": "https://example.com/image2.jpg",
+    "link": "https://example.com/link2"
+  },
+  {
+    "key": 3,
+    "projectNumber": "Project 3",
+    "title": "Title 3",
+    "description": "Description 3",
+    "image": "https://example.com/image3.jpg",
+    "link": "https://example.com/link3"
+  }
+]

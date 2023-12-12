@@ -1,0 +1,57 @@
+.about-image img {
+    width: 50%;
+    border-radius:50%;
+}
+.about-header{
+    font-size: 2.5vw;
+    color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    color: #333; 
+
+
+}
+.ah{
+    color: var(--orange);
+}
+
+.about-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-data{
+    width: 65%;
+    padding-right: 5vw;
+    color: #333; 
+
+}
+
+.intro{
+    font-size: 1.7vw;
+}
+
+.description-heading{
+    font-size: 1.4vw;
+}
+
+.about-point{
+    font-size: 1.4vw;
+    color: var(--orange) 
+
+}
+
+.description-point-data{
+    display: flex;
+    gap: 1.2vw;
+    align-items: center;
+}
+
