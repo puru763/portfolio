@@ -10,7 +10,7 @@
 
 .nav-links {
   display: flex;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .nav-links a {
@@ -18,7 +18,7 @@
   color: var(--orange);
   margin-left: 20px;
   position: relative;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
