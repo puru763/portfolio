@@ -12,8 +12,11 @@
 .project-cart-data-heading {
     color: var(--orange);
     margin-bottom: 0.6vw;
-
+    margin-left: 3.3rem;
+    font-size: 1.5rem;
 }
+
+
 
 .project-cart-data-name {
     font-size: 2vw;
@@ -53,6 +56,11 @@
 .project-img:hover {
     transform: scale(1.1);
 }
+.project-container {
+    max-height: calc(100vh - 20vh);
+    overflow-y: auto;
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -81,6 +89,7 @@
         margin-bottom: 0.6vw;
         font-size: 3vw;
         padding-left: 2vw;
+        padding-bottom: 1rem;
     
     }
     

@@ -25,20 +25,37 @@ const Navbar = () => {
         <div className="butcontact-container">
           <div className={`nav-links ${menuOpen ? "show" : ""}`}>
             <NavLink to="/skills" activeClassName="active" onClick={closeMenu}>
-              SKILLS
+              Skills
             </NavLink>
             <NavLink
               to="/projects"
               activeClassName="active"
               onClick={closeMenu}
             >
-              PROJECTS
+              Projects
             </NavLink>
+
+            <NavLink
+              to="/experience"
+              activeClassName="active"
+              onClick={closeMenu}
+            >
+              Experience
+            </NavLink>
+
+            <NavLink
+              to="/opensource"
+              activeClassName="active"
+              onClick={closeMenu}
+            >
+              OpenSource{" "}
+            </NavLink>
+
             <NavLink to="/about" activeClassName="active" onClick={closeMenu}>
-              ABOUT
+              About
             </NavLink>
             <NavLink to="/contact" activeClassName="active" onClick={closeMenu}>
-              CONTACT
+              Contact
             </NavLink>
           </div>
           <button className="line-btn" onClick={toggleMenu}>

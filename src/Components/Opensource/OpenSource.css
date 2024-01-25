@@ -1,0 +1,58 @@
+
+.openSource {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin:  5% 10%;
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+  
+  .info {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    flex: 100%; /* Take up 100% width on smaller screens */
+  }
+  
+  .openSource h2 {
+    color: var(--orange);
+    font-size: 1.5rem;
+  }
+  
+  .openSource p {
+    color: var(--black);
+    margin-bottom: 1rem;
+  }
+  
+  .linkButton {
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .linkButton:hover {
+    background-color: #d18f00; /* Darker shade of orange on hover */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .openSource {
+      width: 100%; /* Full width on smaller screens */
+      padding: 1.5rem;
+      margin: 1.5rem;
+    }
+  
+    .linkButton {
+      padding: 0.5rem 1rem;
+    }
+  }

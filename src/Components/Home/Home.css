@@ -8,6 +8,8 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   background-color: var(--white);
+  max-height: calc(100vh - 20vh);
+    overflow-y: auto;
 }
 
 .left {
