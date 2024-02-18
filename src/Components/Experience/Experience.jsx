@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div>
       <div className="experience">
-        <div className="info">
+        <div className="info-exp">
           <h2>Backend Developer Intern</h2>
           <p className="job-desc">
           •  Leveraged Object-Oriented Programming for scalable and robust software solutions. <br />
@@ -18,7 +18,7 @@ const Experience = () => {
       </div>
 
       <div className="experience">
-        <div className="info">
+        <div className="info-exp">
           <h2>Web Developer</h2>
           <p className="job-desc">
           • Developed modern, responsive web applications using React.js. <br />
