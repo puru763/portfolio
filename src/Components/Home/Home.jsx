@@ -28,7 +28,7 @@ const Home = () => {
 
   const handleresume = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1F57LgEzGW4dB6v7vRLJPOX3BjqVG9nVO/view?usp=sharing";
+      "https://drive.google.com/file/d/1YURjdjUoyE8uzPtuCQh6RtggiqhybDkv/view?usp=sharing";
   };
   const handleIconClick = (event) => {
     const iconType = event.target.dataset.iconType;
