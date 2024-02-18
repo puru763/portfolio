@@ -42,14 +42,14 @@ const Navbar = () => {
             >
               Experience
             </NavLink>
-
+{/* 
             <NavLink
               to="/opensource"
               activeClassName="active"
               onClick={closeMenu}
             >
               OpenSource{" "}
-            </NavLink>
+            </NavLink> */}
 
             <NavLink to="/about" activeClassName="active" onClick={closeMenu}>
               About

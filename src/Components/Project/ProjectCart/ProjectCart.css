@@ -90,7 +90,15 @@
         font-size: 3vw;
         padding-left: 2vw;
         padding-bottom: 1rem;
+        font-size: larger;
     
+    }
+    .project-sourcecode-btn{
+        width: 100%;
+        margin: 1.4vw;
+    }
+    .project-cart-data-name{
+        font-size: 4.5vw;
     }
     
     

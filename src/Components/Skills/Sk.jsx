@@ -1,6 +1,9 @@
 import React from 'react';
 import { Grid, Typography, SvgIcon } from '@mui/material';
 import { JavascriptIcon, HtmlIcon, CssIcon, ReactIcon, NodejsIcon, MongodbIcon, ExpressIcon, ReduxIcon, HerokuIcon, GithubIcon } from '@mui/icons-material';
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { SiHibernate } from "react-icons/si";
+
 
 const SkillIcon = ({ skill }) => {
   switch (skill) {
@@ -8,6 +11,8 @@ const SkillIcon = ({ skill }) => {
       return <JavascriptIcon />;
     case 'HTML':
       return <HtmlIcon />;
+    case 'Hibernate ':
+        return <SiHibernate />;
     case 'CSS':
       return <CssIcon />;
     case 'React':
@@ -24,6 +29,8 @@ const SkillIcon = ({ skill }) => {
       return <HerokuIcon />;
     case 'Github':
       return <GithubIcon />;
+    case 'Springboot':
+      return <BiLogoSpringBoot />;
     default:
       return <SvgIcon />;
   }
@@ -32,7 +39,7 @@ const SkillIcon = ({ skill }) => {
 const Sk = ({ skills }) => {
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12}>
+      <Grid item xs={14}>
         <Typography variant="h6" component="h6">
           Skills
         </Typography>

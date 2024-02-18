@@ -12,6 +12,8 @@ import { SiMongodb } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { SiHibernate } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -78,9 +80,22 @@ const Skills = () => {
             <FaGithub className="skill-icons" />
             <div className="skill-name"> Github</div>
           </div>
+
+
+          <div className="skill-item-box">
+            <BiLogoSpringBoot className="skill-icons" />
+            <div className="skill-name"> Spring boot</div>
+          </div>
+
+
+          <div className="skill-item-box">
+            <SiHibernate className="skill-icons" />
+            <div className="skill-name"> SiHibernate</div>
+          </div>
+
+
         </div>
       </div>
-    // </div>
   );
 };
 

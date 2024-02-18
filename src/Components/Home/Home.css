@@ -64,6 +64,8 @@
 .name {
   font-size: 3.5vw;
   gap: 3vh;
+  color: var(--black);
+
 
 }
 
@@ -97,6 +99,10 @@
   transform: scale(1.2);
 }
 
+.fade-in{
+  color: var(--black);
+}
+
 @media only screen and (max-width: 768px) {
 
   .home-container {
@@ -118,7 +124,11 @@
 
   .name {
     font-size: x-large;
+    color: var(--black);
 
+  }
+  .right{
+    color: var(--black);
   }
 
   .description {
@@ -138,5 +148,18 @@
     transition: all 0.3s;
     font-size: 3vw;
   }
+  .img img {
+    width: 40vw;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+  }
+  
 
 }

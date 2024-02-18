@@ -7,7 +7,7 @@ import Skills from "./Components/Skills/Skills";
 import Project from "./Components/Project/Project";
 import Contact from "./Components/Contact/Contact";
 import About from "./Components/About/About";
-import OpenSource from "./Components/Opensource/OpenSource";
+// import OpenSource from "./Components/Opensource/OpenSource";
 import Experience from "./Components/Experience/Experience";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Project />} />
           <Route path="experience" element={<Experience />} />
-          <Route path="opensource" element={<OpenSource />} />
+          {/* <Route path="opensource" element={<OpenSource />} /> */}
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
         </Routes>

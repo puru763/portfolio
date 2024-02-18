@@ -68,6 +68,7 @@
         padding-right: 5vw;
         color: #333; 
         margin: auto;
+        font-size: larger;
     
     }
 
@@ -75,6 +76,22 @@
         width: 40%;
         border-radius:50%;
         margin-top: 5vh;
+    }
+    .about-header{
+        font-size: larger;
+    }
+    .intro{
+        font-size: 3vw;
+
+    }
+    .describe{
+        padding-left: 2vw;
+    }
+    .about-point{
+        font-size: 3vw;
+    }
+    .description-heading{
+        font-size: 3.5vw;
     }
     
 
