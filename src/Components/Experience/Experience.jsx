@@ -30,10 +30,10 @@ const Experience = () => {
           </div>
 
           <p className="job-desc">
-            • Developed modern, responsive web applications using React.js.{" "}
-            <br />
-            • Implemented new features, debugged code, and enhanced user
-            interfaces for high-quality, user-friendly web applications. <br />•
+            Developed modern, responsive web applications using React.js
+        
+             Implemented new features, debugged code, and enhanced user
+            interfaces for high-quality, user-friendly web applications.
             Gained valuable experience with frontend development tools,
             libraries, and Git for version control, emphasizing a strong
             understanding of quality web application delivery
