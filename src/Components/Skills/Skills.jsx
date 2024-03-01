@@ -88,10 +88,10 @@ const Skills = () => {
           </div>
 
 
-          <div className="skill-item-box">
+          {/* <div className="skill-item-box">
             <SiHibernate className="skill-icons" />
             <div className="skill-name"> SiHibernate</div>
-          </div>
+          </div> */}
 
 
         </div>
