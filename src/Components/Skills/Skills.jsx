@@ -83,7 +83,7 @@ const Skills = () => {
 
           <div className="skill-item-box">
             <BiLogoSpringBoot className="skill-icons" />
-            <div className="skill-name"> Spring boot</div>
+            <div className="skill-name"> Spring Boot</div>
           </div>
 
 
