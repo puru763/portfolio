@@ -31,6 +31,8 @@ const SkillIcon = ({ skill }) => {
       return <GithubIcon />;
     case 'Springboot':
       return <BiLogoSpringBoot />;
+      case 'Sprin':
+      return <BiLogoSpringBoot />;
     default:
       return <SvgIcon />;
   }
