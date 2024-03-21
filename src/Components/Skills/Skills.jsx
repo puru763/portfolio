@@ -13,7 +13,6 @@ import { SiCplusplus } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoSpringBoot } from "react-icons/bi";
-import { SiHibernate } from "react-icons/si";
 
 const Skills = () => {
   return (
