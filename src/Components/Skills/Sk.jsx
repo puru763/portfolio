@@ -29,7 +29,7 @@ const SkillIcon = ({ skill }) => {
       return <HerokuIcon />;
     case 'Github':
       return <GithubIcon />;
-    case 'Springoot':
+    case 'Springboot':
       return <BiLogoSpringBoot />;
     default:
       return <SvgIcon />;
